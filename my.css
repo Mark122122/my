@@ -9,14 +9,35 @@ h1 {
 }
 h2 {
   color: black;
-  text-align: center;
-  font-size: 14px;
-  margin: 20px 0px 5px;
+  /* text-align: center; */
+  font-size: 16px;
+  margin: 10px 10px 10px;
 }
 p {
   text-indent: 3em;
   margin: 0px 0px;
 }
+table {
+   /* width: 100%; */
+   border-collapse: collapse;
+}
+td, th {
+   border: 1px solid;
+   text-align: center;
+   vertical-align: middle;
+   padding: 3px;
+}
+th{
+background-color: LightBlue	
+}
+
+.left{
+text-align: left;	
+}
+.center{
+text-align: center;	
+}
 div.contens{
 line-height: 1.5;
 }
+
